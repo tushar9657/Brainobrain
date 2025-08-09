@@ -1,0 +1,26 @@
+name: brainobrain_franchise
+description: Brainobrain franchise app with GST & royalty logic.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
+  path_provider: ^2.0.14
+  pdf: ^3.10.1
+  printing: ^5.11.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
